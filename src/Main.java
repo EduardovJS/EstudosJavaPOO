@@ -28,6 +28,15 @@ public class Main {
         System.out.println("//");
         c2.info();
 
+        System.out.println("/");
+        Notas eduardo = new Notas();
+        eduardo.setNota1(9);
+        eduardo.setNota2(10);
+        eduardo.resultado();
+        eduardo.setNota1(2);
+        eduardo.resultado();
+
+
 
 
 
