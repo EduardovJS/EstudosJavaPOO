@@ -1,9 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        Desktop compA = new Desktop(8,4,600);
-        Notebook compB = new Notebook(8, 4, 15);
+        Pessoa f = new Pessoa("Mario", "111.111.111-1");
+        Carro c = new Carro("Palio", "cinza", 4);
 
-        System.out.println("Valor: " + compA.calculaValor());
-        System.out.println("Valor: " + compB.calculaValor());
+        f.Imprimir();
+        c.Imprimir();
+        
     }
 }
